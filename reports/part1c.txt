@@ -1,0 +1,32 @@
+INITIAL CONDITIONS
+Canvas 100.00 100.00
+Seed 12345
+B U 9.00 75.00 Vmax 150.00 Interval 5.00 Damage 0.00 Destroyed 0
+E1 EA 6.00 71.00 angle 16.00 36.00 velocity 15.00 120.00 impact 0.08 interval 8.00 destroyed 0 shots 0
+E2 EC 60.00 85.00 angle 15.00 40.00 velocity 10.00 110.00 impact 0.07 interval 6.00 destroyed 0 shots 0
+E3 EE 54.00 41.00 angle 23.00 89.00 velocity 6.00 90.00 impact 0.04 interval 4.00 destroyed 0 shots 0
+E4 EE 37.00 49.00 angle 15.00 85.00 velocity 6.00 90.00 impact 0.04 interval 4.00 destroyed 0 shots 0
+E5 EA 10.00 17.00 angle 14.00 34.00 velocity 15.00 120.00 impact 0.08 interval 8.00 destroyed 0 shots 0
+
+FINAL CONDITIONS
+Canvas 100.00 100.00
+Seed 12345
+B U 9.00 75.00 Vmax 150.00 Interval 5.00 Damage 0.23 Destroyed 0
+E1 EA 6.00 71.00 angle 16.00 36.00 velocity 15.00 120.00 impact 0.08 interval 8.00 destroyed 1 shots 0
+E2 EC 60.00 85.00 angle 15.00 40.00 velocity 10.00 110.00 impact 0.07 interval 6.00 destroyed 1 shots 0
+E3 EE 54.00 41.00 angle 23.00 89.00 velocity 6.00 90.00 impact 0.04 interval 4.00 destroyed 1 shots 0
+E4 EE 37.00 49.00 angle 15.00 85.00 velocity 6.00 90.00 impact 0.04 interval 4.00 destroyed 1 shots 0
+E5 EA 10.00 17.00 angle 14.00 34.00 velocity 15.00 120.00 impact 0.08 interval 8.00 destroyed 1 shots 0
+
+PART 1-C
+Cumulative impact is used for attacks on B.
+E2 hit B: +0.07 damage, total 0.07
+E3 hit B: +0.04 damage, total 0.11
+E4 hit B: +0.04 damage, total 0.15
+E5 hit B: +0.08 damage, total 0.23
+B hit E1 at time 0.00 s, angle 1.0, velocity 37.49
+B hit E2 at time 0.00 s, angle 1.0, velocity 120.87
+B hit E3 at time 0.00 s, angle 1.0, velocity 125.91
+B hit E4 at time 0.00 s, angle 1.0, velocity 103.64
+B hit E5 at time 0.00 s, angle 1.0, velocity 127.69
+Cumulative B damage: 0.23

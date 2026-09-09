@@ -1,0 +1,43 @@
+INITIAL CONDITIONS
+Canvas 100.00 100.00
+Seed 12345
+B U 9.00 75.00 Vmax 150.00 Interval 5.00 Damage 0.00 Destroyed 0
+E1 EA 6.00 71.00 angle 16.00 36.00 velocity 15.00 120.00 impact 0.08 interval 8.00 destroyed 0 shots 0
+E2 EC 60.00 85.00 angle 15.00 40.00 velocity 10.00 110.00 impact 0.07 interval 6.00 destroyed 0 shots 0
+E3 EE 54.00 41.00 angle 23.00 89.00 velocity 6.00 90.00 impact 0.04 interval 4.00 destroyed 0 shots 0
+E4 EE 37.00 49.00 angle 15.00 85.00 velocity 6.00 90.00 impact 0.04 interval 4.00 destroyed 0 shots 0
+E5 EA 10.00 17.00 angle 14.00 34.00 velocity 15.00 120.00 impact 0.08 interval 8.00 destroyed 0 shots 0
+
+FINAL CONDITIONS
+Canvas 100.00 100.00
+Seed 12345
+B U 9.00 75.00 Vmax 150.00 Interval 5.00 Damage 1.00 Destroyed 1
+E1 EA 6.00 71.00 angle 16.00 36.00 velocity 15.00 120.00 impact 0.08 interval 8.00 destroyed 1 shots 0
+E2 EC 60.00 85.00 angle 15.00 40.00 velocity 10.00 110.00 impact 0.07 interval 6.00 destroyed 0 shots 4
+E3 EE 54.00 41.00 angle 23.00 89.00 velocity 6.00 90.00 impact 0.04 interval 4.00 destroyed 0 shots 6
+E4 EE 37.00 49.00 angle 15.00 85.00 velocity 6.00 90.00 impact 0.04 interval 4.00 destroyed 0 shots 6
+E5 EA 10.00 17.00 angle 14.00 34.00 velocity 15.00 120.00 impact 0.08 interval 8.00 destroyed 0 shots 3
+
+PART 2-B
+Escort ships can fire continuously.
+0.00 s: B fired at E1, angle 1.0, velocity 37.49
+0.00 s: E2 fired, B damage 0.07
+0.00 s: E3 fired, B damage 0.11
+0.00 s: E4 fired, B damage 0.15
+0.00 s: E5 fired, B damage 0.23
+4.00 s: E3 fired, B damage 0.27
+4.00 s: E4 fired, B damage 0.31
+6.00 s: E2 fired, B damage 0.38
+8.00 s: E3 fired, B damage 0.42
+8.00 s: E4 fired, B damage 0.46
+8.00 s: E5 fired, B damage 0.54
+12.00 s: E2 fired, B damage 0.61
+12.00 s: E3 fired, B damage 0.65
+12.00 s: E4 fired, B damage 0.69
+16.00 s: E3 fired, B damage 0.73
+16.00 s: E4 fired, B damage 0.77
+16.00 s: E5 fired, B damage 0.85
+18.00 s: E2 fired, B damage 0.92
+20.00 s: E3 fired, B damage 0.96
+20.00 s: E4 fired, B damage 1.00
+Battle ended at 20.00 seconds after 24 events.
